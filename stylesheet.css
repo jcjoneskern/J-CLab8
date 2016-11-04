@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #ffe4aa;
+	color: #354451;
+}
+table {
+	margin: 0 auto;
+	width: 30%;
+	background-color: rgba(123, 171, 216, .5)
+}
+tfoot {
+	font-style: italic;
+}
+input {
+	border: 1px solid #84aace;
+	border-radius: 2px;
+}
+button {
+	background-color: #84aace;
+	border: 1px solid #84aace;
+	color: white;
+	border-radius: 2px;
+}

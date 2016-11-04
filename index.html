@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shopping List</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<header>
+			<h1>Shopping List</h1>
+		</header>
+		<table>
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Cost</th>
+				</tr>
+			</thead>
+			<tbody id="tabledata">
+			<!--list info should go here-->
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Total:</td>
+					<td id="totalvalue">$0.00</td>
+				</tr>
+			</tfoot>
+		</table>
+		<p>
+			<input type="text" id="newItem" placeholder="Item"/> 
+			<input type="text" id="newPrice" placeholder= "Price"/>
+		</p>
+		<button type="button" id = "additem" >Add</button>
+		<p id="response"></p>
+		<script src="script.js"></script>
+	</body>
+</html>
